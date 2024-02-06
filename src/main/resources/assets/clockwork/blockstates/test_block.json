@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "clockwork:block/test_block" }
+  }
+}

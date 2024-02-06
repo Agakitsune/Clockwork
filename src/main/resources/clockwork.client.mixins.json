@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "net.agakitsune.clockwork.mixin.client",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

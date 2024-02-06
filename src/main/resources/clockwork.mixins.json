@@ -3,6 +3,7 @@
 	"package": "net.agakitsune.clockwork.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
+		"ItemsMixin",
 		"ClockworkMixin"
 	],
 	"injectors": {

@@ -1,0 +1,6 @@
+{
+    "parent": "clockwork:block/gunpowder_dust_side",
+    "textures": {
+        "line": "clockwork:block/gunpowder_dust_line0"
+    }
+}
