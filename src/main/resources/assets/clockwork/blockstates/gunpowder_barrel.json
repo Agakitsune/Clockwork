@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "clockwork:block/gunpowder_barrel"
+    }
+  }
+}

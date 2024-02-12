@@ -1,0 +1,14 @@
+{
+  "block.gunpowder_wire.ignite": {
+    "subtitle": "subtitles.clockwork.gunpowder_wire_ignite",
+    "sounds": [
+      "clockwork:block/gunpowder_wire/ignite"
+    ]
+  },
+  "block.gunpowder_wire.fuse": {
+    "subtitle": "subtitles.clockwork.gunpowder_wire_fuse",
+    "sounds": [
+      "clockwork:block/gunpowder_wire/fuse"
+    ]
+  }
+}

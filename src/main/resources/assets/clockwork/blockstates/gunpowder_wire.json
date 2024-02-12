@@ -14,6 +14,30 @@
           },
           {
             "east": "side|up",
+            "north": "none",
+            "south": "none",
+            "west": "none"
+          },
+          {
+            "east": "none",
+            "north": "side|up",
+            "south": "none",
+            "west": "none"
+          },
+          {
+            "east": "none",
+            "north": "none",
+            "south": "side|up",
+            "west": "none"
+          },
+          {
+            "east": "none",
+            "north": "none",
+            "south": "none",
+            "west": "side|up"
+          },
+          {
+            "east": "side|up",
             "north": "side|up"
           },
           {

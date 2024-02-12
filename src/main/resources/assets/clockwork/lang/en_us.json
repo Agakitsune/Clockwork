@@ -1,3 +1,8 @@
 {
-  "item.clockwork.scroll": "Scroll"
+  "item.clockwork.scroll": "Scroll",
+
+  "block.clockwork.gunpowder_barrel": "Gunpowder Barrel",
+
+  "subtitles.clockwork.gunpowder_wire_ignite": "Gunpowder Ignite",
+  "subtitles.clockwork.gunpowder_wire_fuse": "Gunpowder Fuse"
 }
