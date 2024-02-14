@@ -4,5 +4,16 @@
   "block.clockwork.gunpowder_barrel": "Gunpowder Barrel",
 
   "subtitles.clockwork.gunpowder_wire_ignite": "Gunpowder Ignite",
-  "subtitles.clockwork.gunpowder_wire_fuse": "Gunpowder Fuse"
+  "subtitles.clockwork.gunpowder_wire_fuse": "Gunpowder Fuse",
+
+  "commands.mana.add.max.success.multiple": "Increased mana limit to %s on %s players",
+  "commands.mana.add.max.success.single": "Increased mana limit to %s on %s",
+  "commands.mana.add.points.success.multiple": "Gave %s mana points to %s players",
+  "commands.mana.add.points.success.single": "Gave %s mana points to %s",
+  "commands.mana.query.max": "Mana limit of %s is %s",
+  "commands.mana.query.points": "%s has %s mana points",
+  "commands.mana.set.max.success.multiple": "Set mana limit to %s on %s players",
+  "commands.mana.set.max.success.single": "Set mana limit to %s on %s",
+  "commands.mana.set.points.success.multiple": "Set %s mana points on %s players",
+  "commands.mana.set.points.success.single": "Set %s mana points on %s"
 }

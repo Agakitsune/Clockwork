@@ -3,6 +3,9 @@
 	"package": "net.agakitsune.clockwork.mixin.client",
 	"compatibilityLevel": "JAVA_17",
 	"client": [
+		"InGameHudMixin",
+		"ClientCommonNetworkHandlerMixin",
+		"ClientPlayNetworkHandlerMixin",
 		"ExampleClientMixin"
 	],
 	"injectors": {
