@@ -18,7 +18,7 @@ public abstract class ClientPlayNetworkHandlerMixin implements ExtendedClientPla
     public void onManaBarUpdate(ManaBarUpdateS2CPacket packet) {
         ClientCommonNetworkHandlerMixin mixin = (ClientCommonNetworkHandlerMixin) this;
         NetworkThreadUtils.forceMainThread((Packet)packet, (PacketListener)this, mixin.getClient());
-        mixin.getClient().player.setMana(packet.getMana());
-        mixin.getClient().player.setMaxMana(packet.getMaxMana());
+        ((ManaEntity)mixin.getClient().player).setMana(packet.getMana());
+        ((ManaEntity)mixin.getClient().player).setMaxMana(packet.getMaxMana());
     }
 }

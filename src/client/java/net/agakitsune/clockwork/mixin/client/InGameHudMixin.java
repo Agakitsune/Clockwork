@@ -68,7 +68,7 @@ public abstract class InGameHudMixin {
 
         assert this.client.player != null;
         int y = this.scaledHeight - 36;
-        float offset = (float) this.client.player.getMana() / this.client.player.getMaxMana();
+        float offset = (float) ((ManaEntity)this.client.player).getMana() / ((ManaEntity)this.client.player).getMaxMana();
         int line = (int) (offset * 182);
         context.drawTexture(new Identifier(Clockwork.MODID, "textures/gui/hud/mana_bar.png"), x, y, 0, 0, 182, 5, 182, 10);
         context.drawTexture(new Identifier(Clockwork.MODID, "textures/gui/hud/mana_bar.png"), x, y, 0, 5, line, 5, 182, 10);
@@ -107,7 +107,7 @@ public abstract class InGameHudMixin {
         this.client.getProfiler().push("manaLevel");
 
         assert this.client.player != null;
-        String string = "" + this.client.player.getMana();
+        String string = "" + ((ManaEntity)this.client.player).getMana();
         int x = this.scaledWidth / 2 + 12;
         int y = this.scaledHeight - 37;
         context.drawText(this.getTextRenderer(), string, x + 1, y, 0, false);

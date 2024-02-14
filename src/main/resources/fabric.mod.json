@@ -43,7 +43,7 @@
 			"net/minecraft/entity/player/PlayerEntity": [
 				"net/agakitsune/clockwork/entity/player/ManaEntity"
 			],
-			"net/minecraft/client/network/ClientCommonNetworkHandler": [
+			"net/minecraft/client/network/ClientPlayNetworkHandler": [
 				"net/agakitsune/clockwork/network/ExtendedClientPlayPacketListener"
 			]
 		}
