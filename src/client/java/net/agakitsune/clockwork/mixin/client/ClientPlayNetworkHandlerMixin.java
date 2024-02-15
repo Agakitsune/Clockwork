@@ -14,11 +14,11 @@ import org.spongepowered.asm.mixin.Mixin;
 @Mixin(ClientPlayNetworkHandler.class)
 public abstract class ClientPlayNetworkHandlerMixin implements ExtendedClientPlayPacketListener {
 
-    @Override
-    public void onManaBarUpdate(ManaBarUpdateS2CPacket packet) {
-        ClientCommonNetworkHandlerMixin mixin = (ClientCommonNetworkHandlerMixin) this;
-        NetworkThreadUtils.forceMainThread((Packet)packet, (PacketListener)this, mixin.getClient());
-        ((ManaEntity)mixin.getClient().player).setMana(packet.getMana());
-        ((ManaEntity)mixin.getClient().player).setMaxMana(packet.getMaxMana());
-    }
+//    @Override
+//    public void onManaBarUpdate(ManaBarUpdateS2CPacket packet) {
+//        ClientCommonNetworkHandlerMixin mixin = (ClientCommonNetworkHandlerMixin) this;
+//        NetworkThreadUtils.forceMainThread((Packet)packet, (PacketListener)this, mixin.getClient());
+//        ((ManaEntity)mixin.getClient().player).setMana(packet.getMana());
+//        ((ManaEntity)mixin.getClient().player).setMaxMana(packet.getMaxMana());
+//    }
 }
